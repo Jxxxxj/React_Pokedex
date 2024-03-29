@@ -1,8 +1,10 @@
 import PokemonCard from "./assets/components/PokemonCard";
+import "./App.css";
+
 function App() {
 	return (
 	  <div>
-		<PokemonCard/>
+		<PokemonCard index = {0}/>
 	  </div>
 	);
   }
